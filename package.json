@@ -1,0 +1,22 @@
+{
+  "name": "inb4",
+  "version": "0.0.1",
+  "description": "Last.fm \"first\" stats",
+  "bin": {
+    "inb4": "./bin/inb4.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Kristhammar <kristhammar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lastfm": "^0.9.2",
+    "limiter": "^1.0.5",
+    "lodash": "^2.4.1",
+    "minimist": "^1.1.0",
+    "moment": "^2.8.4",
+    "progress": "^1.1.8",
+    "rsvp": "^3.0.15"
+  }
+}
