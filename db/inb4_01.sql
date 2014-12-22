@@ -44,8 +44,7 @@ CREATE TABLE IF NOT EXISTS plays (
 
 CREATE TABLE IF NOT EXISTS imports (
   id INTEGER NOT NULL PRIMARY KEY,
-  from_time DATETIME NULL,
-  to_time DATETIME NULL,
-  start_time DATETIME NULL,
-  stop_time DATETIME NULL,
-  status VARCHAR(10) NOT NULL DEFAULT 'started')
+  from_time INTEGER NULL,
+  to_time INTEGER NULL,
+  start_time INTEGER NULL,
+  stop_time INTEGER NULL)
