@@ -7,7 +7,7 @@ Create local last.fm statistics for groups
 git clone https://github.com/jacobk/inb4.git
 cd inb4
 npm link
-inb4 --key=<lastfmkey> --group=<groupname> --from=2014-01-01 --to=2014-12-21
+inb4 build --key=<lastfmkey> --group=<groupname> --from=2014-01-01 --db=/tmp/stats.sqlite3
 ````
 
 Builds local cache files for listen stats under `/tmp` and a sqlite3 database with stats in `/tmp/inb4.sqlite`
